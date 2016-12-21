@@ -24,7 +24,7 @@ FLAGS = tf.flags.FLAGS
 FLAGS._parse_flags()
 
 # Model log data
-print("Model: " + str("perceptron"))
+print("Model: " + str("Online Perceptron"))
 print("Epochs: " + str(FLAGS.epochs))
 print("Batch Size: " + str(FLAGS.batch_size))
 
