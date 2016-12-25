@@ -43,7 +43,7 @@ error = 0.0
 # Training loop
 for epoch in range(0, FLAGS.epochs):
     print("Epoch: " + str(epoch))
-    
+
     for i in range(0, len(train_features)):
         # Get the current input from the training data
         current_input = train_features[i]
