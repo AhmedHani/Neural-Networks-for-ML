@@ -32,7 +32,7 @@ print("Learning Rate" + str(FLAGS.learning_rate))
 train_features, train_labels, test_features, test_labels = get_data_for_stock_market_for_linear_regression()
 
 # Initialize the linear regression weights in Gaussian Distribution
-weights = np.random.normal(size=2)
+weights = np.random.uniform(size=2)
 
 # Training loop
 for epoch in range(0, FLAGS.epochs):
